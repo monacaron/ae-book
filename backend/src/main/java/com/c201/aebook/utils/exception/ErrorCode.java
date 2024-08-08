@@ -23,7 +23,7 @@ public enum ErrorCode {
 	/* 403 FORBIDDEN : 클라이언트가 요청한 리소스에 대한 권한이 없는 경우 */
 	FORBIDDEN_USER(FORBIDDEN, "권한이 없는 요청입니다."), // 희주
 
-	/* 404 NTO_FOUND : 해당하는 DATA를 찾을 수 없음 */
+	/* 404 NOT_FOUND : 해당하는 DATA를 찾을 수 없음 */
 	USER_NOT_FOUND(NOT_FOUND, "해당 사용자 정보를 찾을 수 없습니다"), // 희주
 	BOOK_NOT_FOUND(NOT_FOUND, "존재하지 않는 도서입니다."), // 희주
 
